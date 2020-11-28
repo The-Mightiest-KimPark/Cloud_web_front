@@ -8,10 +8,10 @@ class TodoItem extends Component {
         return (
             <div className="todo-item" onClick={() => onToggle(id)}>
                 <div className="remove" onClick={(e) => {
-                    e.stopPropagation(); //onToggle이 실행되도록 함
+                    e.stopPropagation(); //onToggle이 실행되도록 함 / e.stopPropagation() 은 이벤트의 “확산” 을 멈춰줍니다. 
                     onRemove(id)}
                 }>&times;</div>
-                <div className={`todo-text ${checked && 'checked'}`}>
+                <div className={`todo-text ${checked ? 'checked' : ''}`}>
                     <div>{text}</div>
                 </div>
                 {
@@ -19,6 +19,7 @@ class TodoItem extends Component {
                 }
             </div>
         );
-    }
-        
+    }    
 }
+
+export default TodoItem;
