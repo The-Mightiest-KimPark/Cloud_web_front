@@ -5,13 +5,27 @@ const TodoListTemplate = ({form, children}) => {
     return (
         <main className="todo-list-template">
             <div className="title">
-                오늘 할 일
+                현재 재료
             </div>
-            <section className="form-wrapper">
-                {form}
-            </section>
+
+            <div className="mid-title">
+                스마트칸
+            </div>
+
             <section className="todos-wrapper">
                 {children}
+            </section>
+
+            <div className="mid-title">
+                직접입력
+            </div>
+
+            <section className="todos-wrapper">
+                {children}
+            </section>
+
+            <section className="form-wrapper">
+                {form}
             </section>
         </main>
     );

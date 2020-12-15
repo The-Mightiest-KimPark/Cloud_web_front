@@ -4,22 +4,15 @@ import TodoItem from './TodoItem';
 
 class TodoItemList extends Component {
 
-    //실제 업데이트 될때만 리렌더링 될 수 있도록 최적화
-    shouldComponentUpdate(nextProps, nextState){
-        return this.props.todos != nextProps.todos;
-    }
-
     render() {
-        const {todos, onToggle, onRemove} = this.props;
+        const {todos} = this.props;
 
         const todoList = todos.map(
-            ({id, text, checked}) => (
+            ({id, text, count}) => (
                 <TodoItem
                 id={id}
                 text={text}
-                checked={checked}
-                onToggle={onToggle}
-                onRemove={onRemove}
+                count={count}
                 key={id}
                 />
             )

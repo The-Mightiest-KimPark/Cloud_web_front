@@ -1,13 +1,11 @@
 import React from 'react';
 import './Form.css';
+// import {Link} from 'react-ro'
 
-const Form = ({value, onChange, onCreate, onKeyPress}) => {
+const Form = () => {
     return (
         <div className="form">
-            <input value={value} onChange={onChange} onKeyPress={onKeyPress}/>
-            <div className="create-button" onClick={onCreate}>
-                추가
-            </div>
+            <button className='recipe-button'>추천레시피 보기</button>
         </div>
     );
 };
