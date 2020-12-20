@@ -1,14 +1,15 @@
 .todo-list-template {
     background: white;
-    width: 512px;
+    width: 100%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     margin: 0 auto;
-    margin-top: 4rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
 }
 
 .title {
     padding: 2rem;
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     text-align: center;
     font-weight: 100;
     background: #48a512;
@@ -16,8 +17,8 @@
 }
 
 .mid-title{
-    padding: 0.5rem;
-    font-size: 1rem;
+    padding: 1.5rem;
+    font-size: 3rem;
     text-align: center;
     font-weight: 100;
     background: #6c7767;
@@ -26,9 +27,10 @@
 
 .form-wrapper {
     padding: 1rem;
-    border-bottom: 1px solid #48a512;
+    border-bottom: px solid #48a512;
 }
 
 .todos-wrapper {
     min-height: 5rem;
+    font-size: 2.5rem;
 }

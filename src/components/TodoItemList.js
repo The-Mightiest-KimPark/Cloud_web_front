@@ -8,10 +8,10 @@ class TodoItemList extends Component {
         const {todos} = this.props;
 
         const todoList = todos.map(
-            ({id, text, count}) => (
+            ({id, name, count}) => (
                 <TodoItem
                 id={id}
-                text={text}
+                name={name}
                 count={count}
                 key={id}
                 />

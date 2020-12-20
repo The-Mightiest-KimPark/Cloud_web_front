@@ -16,17 +16,17 @@ const TodoListTemplate = ({form, children}) => {
                 {children}
             </section>
 
-            <div className="mid-title">
+            {/* <div className="mid-title">
                 직접입력
             </div>
 
             <section className="todos-wrapper">
                 {children}
-            </section>
+            </section> */}
 
-            <section className="form-wrapper">
+            {/* <section className="form-wrapper">
                 {form}
-            </section>
+            </section> */}
         </main>
     );
 };

@@ -2,16 +2,30 @@ import React, { Component } from 'react';
 import Form from './components/Form';
 import TodoItemList from './components/TodoItemList';
 import TodoListTemplate from './components/TodoListTemplate';
+import axios from 'axios'
 
 class App extends Component {
 
-  state = {
-    todos: [
-      {id: 0, text: '당근', count: 3},
-      {id: 1, text: '토마토', count: 3},
-      {id: 2, text: '가지', count: 3},
-    ]
+  componentDidMount() {
+    this.loadItem();  // loadItem 호출
   }
+
+  state = {
+    todos: []
+  }
+
+
+  loadItem = async() => {
+    axios
+    .get(
+      'api/user-input-grocery/?gubun=1&email=multi@naver.com'
+    ).then(({data}) => {
+      this.setState({
+        todos: data
+      });
+    })
+  };
+  
 
   render() {
     const{todos} = this.state;
