@@ -2,7 +2,7 @@
   "name": "themightest-kpk",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://13.209.95.229/",
+  "proxy": "http://3.92.44.79/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
