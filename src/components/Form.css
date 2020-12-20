@@ -3,16 +3,18 @@
 }
 
 .form .recipe-button {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    margin-left: 6rem;
+    /* padding: 100%; */
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 25rem;
+    padding-right: 25rem;
+    margin-left: 36rem;
     background: #48a512;
     border-radius: 3px;
     color: white;
     font-weight: 600;
     cursor: pointer;
+    font-size: 2rem;
 }
 
 .form .recipe-button:horver {

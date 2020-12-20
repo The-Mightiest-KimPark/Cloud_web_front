@@ -18,7 +18,7 @@ class App extends Component {
   loadItem = async() => {
     axios
     .get(
-      'api/user-input-grocery/?gubun=1&email=multi@naver.com'
+      '/api/user-input-grocery/?email=multi@naver.com'
     ).then(({data}) => {
       this.setState({
         todos: data

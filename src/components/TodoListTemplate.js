@@ -8,9 +8,9 @@ const TodoListTemplate = ({form, children}) => {
                 현재 재료
             </div>
 
-            <div className="mid-title">
+            {/* <div className="mid-title">
                 스마트칸
-            </div>
+            </div> */}
 
             <section className="todos-wrapper">
                 {children}
@@ -24,9 +24,9 @@ const TodoListTemplate = ({form, children}) => {
                 {children}
             </section> */}
 
-            {/* <section className="form-wrapper">
+            <section className="form-wrapper">
                 {form}
-            </section> */}
+            </section>
         </main>
     );
 };
