@@ -24,9 +24,9 @@ const TodoListTemplate = ({form, children}) => {
                 {children}
             </section> */}
 
-            <section className="form-wrapper">
+            {/* <section className="form-wrapper">
                 {form}
-            </section>
+            </section> */}
         </main>
     );
 };
