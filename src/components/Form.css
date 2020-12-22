@@ -9,7 +9,7 @@
     padding-left: 25rem;
     padding-right: 25rem;
     margin-left: 36rem;
-    background: #48a512;
+    background: #CEF279;
     border-radius: 3px;
     color: white;
     font-weight: 600;
@@ -18,6 +18,6 @@
 }
 
 .form .recipe-button:horver {
-    background: #48a512;
+    background: #CEF279;
 }
 

@@ -12,8 +12,8 @@
     font-size: 4.5rem;
     text-align: center;
     font-weight: 100;
-    background: #48a512;
-    color: white;
+    background: #CEF279;
+    color: #003E00;
 }
 
 .mid-title{
@@ -22,12 +22,12 @@
     text-align: center;
     font-weight: 100;
     background: #6c7767;
-    color: white;
+    color: #003E00;
 }
 
 .form-wrapper {
     padding: 1rem;
-    border-bottom: px solid #48a512;
+    border-bottom: px solid #CEF279;
 }
 
 .todos-wrapper {
